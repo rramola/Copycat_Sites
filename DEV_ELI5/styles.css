@@ -6,7 +6,28 @@ body {
 
 .header_container {
     display: flex;
+    align-items: center;
     background-color: white;
+    height: 3.5em;
+    box-shadow: 1px 1px 1px rgba(224, 223, 223, 0.993);
+}
+
+.header_container > .logo_container {
+    padding-left:10em;
+    
+}
+
+.header_container > .search_bar {
+    padding-left: 1em;
+}
+
+.header_container > .search_bar > .search_bar_box {
     height: 3em;
-    box-shadow: 1px 1px 1px #999797;
+    border-radius: .5em;
+    border-color: rgba(rgba(255, 251, 251, 0.849));
+}
+
+.header_container > .header_button_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr
 }
